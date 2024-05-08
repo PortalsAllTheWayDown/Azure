@@ -1,0 +1,15 @@
+Azure App Service is an HTTP-based service for hosting web applications, REST APIs, and mobile back ends. You can develop in your favorite programming language or framework.
+Application run and scale with ease on both Windows and Linux-based environments.
+
+Baked into Azure App Service is the ability to scale up/down or scale out/in. Depending on the ussage of the web app, you can scale the resources of the underlying machine that is hosting your web app up/down. Resources include the numbe rof cores or the amount of RAM available. Scaling out/in is the ability to increase or decrease the number of machine instances that are running your web app.
+
+The Azure portal provides out of the box continuous integration and deployment with Azure DevOps Services, Github, Bitbucket, FTP, or a local Git repository on your drrevelopment machine.
+Connect your web app with any of the above sources nd App Service will do the erst for you by auto-syncing code and any future changes on the code into the web app.
+
+You can also run custom linux containers(Also known as Web App for Containers).
+Supported languages and frameworks include: Node.js, Java(JRE8 & JRE 11), PHP, Phython, .NET, and Ruby.
+If the runtime your application requires isnt supported in the built-in images you can deploy it with a custom container.
+
+az webapp list-runtimes --os-type linux
+
+
